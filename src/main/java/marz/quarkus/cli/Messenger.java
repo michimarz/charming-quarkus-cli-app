@@ -7,7 +7,6 @@ import com.oracle.svm.core.annotate.Inject;
 @Dependent
 public class Messenger {
 
-    @Inject
     @ConfigProperty(name = "message")
     String message;
 
