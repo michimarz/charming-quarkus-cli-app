@@ -17,6 +17,7 @@ public class CharmingCLIApp implements QuarkusApplication {
         
         System.out.println("I have a meesage for you:");
         System.out.println(this.supplier.message());
+        
         return 42;
     }
     
